@@ -21,8 +21,3 @@ class TestSum():
         with pytest.raises(ValueError):
             sum_solution.compute(200,5)
         
-
-
-
-
-
