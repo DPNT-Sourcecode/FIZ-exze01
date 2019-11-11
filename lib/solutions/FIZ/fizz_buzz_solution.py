@@ -24,9 +24,9 @@ def fizz_buzz(number):
             return "deluxe"
         else:
             return "fake deluxe"   
-    elif _check_multiple_of(number,3) or ('3' in str(number)):
+    elif _check_fizz(number):
         return "fizz"
-    elif _check_multiple_of(number,5) or ('5' in str(number)):
+    elif _check_buzz(number):
         return "buzz"
     else:
         return number
@@ -35,3 +35,12 @@ def fizz_buzz(number):
 def _check_multiple_of(n, k):
     if n % k == 0:
         return True
+
+def _check_fizz(number):
+    if  _check_multiple_of(number,3) or ('3' in str(number)):
+        return True
+
+def _check_buzz(number):
+    if  _check_multiple_of(number,5) or ('5' in str(number)):
+        return True
+
