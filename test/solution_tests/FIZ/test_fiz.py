@@ -23,5 +23,3 @@ class TestSum():
         assert fizz_buzz_solution.fizz_buzz(777) == "fizz fake deluxe"
     
     
-
-
