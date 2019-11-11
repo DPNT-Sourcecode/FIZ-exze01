@@ -8,5 +8,3 @@ def _check_type(obj, type, range):
         return True
     else:
         raise ValueError("The {obj} is not of type {type} or is not between {range}".format(obj=obj,type=type,range=range))
-
-
