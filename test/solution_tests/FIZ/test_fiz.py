@@ -16,11 +16,11 @@ class TestSum():
         assert fizz_buzz_solution.fizz_buzz(22) == "deluxe"
         assert fizz_buzz_solution.fizz_buzz(11) == "fake deluxe"
         assert fizz_buzz_solution.fizz_buzz(77) == "fake deluxe"
-        assert fizz_buzz_solution.fizz_buzz(111) == "fizz deluxe"
+        assert fizz_buzz_solution.fizz_buzz(111) == "fizz fake deluxe"
         assert fizz_buzz_solution.fizz_buzz(99) == "fizz fake deluxe"
         assert fizz_buzz_solution.fizz_buzz(33) == "fizz fake deluxe"
         assert fizz_buzz_solution.fizz_buzz(222) == "fizz deluxe"
-        assert fizz_buzz_solution.fizz_buzz(777) == "fizz deluxe"
+        assert fizz_buzz_solution.fizz_buzz(777) == "fizz fake deluxe"
     
     
 
