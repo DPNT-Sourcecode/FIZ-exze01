@@ -16,9 +16,3 @@ def fizz_buzz(number):
 def _check_multiple_of(n, k):
     if n % k == 0:
         return True
-
-
-
-
-
-
