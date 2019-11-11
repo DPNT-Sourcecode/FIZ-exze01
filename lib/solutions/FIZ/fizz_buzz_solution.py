@@ -11,9 +11,14 @@ def fizz_buzz(number):
         return  "fizz buzz" 
     elif number > 10 and len(set(str(number))) == 1  and ( _check_multiple_of(number,3) or ('3' in str(number))):
         if _check_multiple_of(number,2):
-        return  "fizz deluxe"
+            return  "fizz deluxe"
+        else:
+            return "fizz fake deluxe"
     elif number > 10 and len(set(str(number))) == 1  and ( _check_multiple_of(number,5) or ('5' in str(number))):
-        return  "buzz deluxe"
+        if _check_multiple_of(number,2):
+            return  "buzz deluxe"
+        else:
+            return  "buzz fake deluxe"
     elif number > 10 and len(set(str(number))) == 1:
         if _check_multiple_of(number,2): 
             return "deluxe"
@@ -30,5 +35,6 @@ def fizz_buzz(number):
 def _check_multiple_of(n, k):
     if n % k == 0:
         return True
+
 
 
