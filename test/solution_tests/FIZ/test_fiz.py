@@ -18,6 +18,6 @@ class TestSum():
         assert fizz_buzz_solution.fizz_buzz(99) == "fizz"
         assert fizz_buzz_solution.fizz_buzz(33) == "fizz fake deluxe"
         assert fizz_buzz_solution.fizz_buzz(222) == "fizz"
-        assert fizz_buzz_solution.fizz_buzz(777) == "fizz fake deluxe"
+        assert fizz_buzz_solution.fizz_buzz(777) == "fizz"
     
     
