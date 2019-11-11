@@ -47,5 +47,3 @@ def _check_buzz(number):
 def _check_deluxe(number):
     if (_check_multiple_of(number,5) and ('5' in str(number))) or (_check_multiple_of(number,3) and ('3' in str(number))):
         return True
-
-
