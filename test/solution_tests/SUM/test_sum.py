@@ -17,10 +17,11 @@ class TestSum():
             sum_solution.compute(1.5,5.9)
 
     def test_sum_number_higher_than_100(self):
-        
+        # test function raises error when number higher than 100
         with pytest.raises(ValueError):
             sum_solution.compute(200,5)
         
+
 
 
 
