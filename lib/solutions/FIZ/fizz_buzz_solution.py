@@ -8,6 +8,8 @@ def fizz_buzz(number):
         return  "fizz buzz" 
     elif number > 10 and len(set(str(number))) == 1  and ( _check_multiple_of(number,3) or ('3' in str(number))):
         return  "fizz deluxe"
+    elif number > 10 and len(set(str(number))) == 1  and ( _check_multiple_of(number,5) or ('5' in str(number))):
+        return  "buzz deluxe"
     elif number > 10 and len(set(str(number))) == 1:
         return "deluxe"   
     elif _check_multiple_of(number,3) or ('3' in str(number)):
@@ -21,9 +23,3 @@ def fizz_buzz(number):
 def _check_multiple_of(n, k):
     if n % k == 0:
         return True
-
-
-
-
-
-

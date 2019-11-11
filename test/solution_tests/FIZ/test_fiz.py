@@ -12,12 +12,12 @@ class TestSum():
         assert fizz_buzz_solution.fizz_buzz(37) == 'fizz'
         assert fizz_buzz_solution.fizz_buzz(50) == 'buzz'
         assert fizz_buzz_solution.fizz_buzz(555) == "fizz buzz deluxe"
-        # assert fizz_buzz_solution.fizz_buzz(546) == "fizz buzz"
-        assert fizz_buzz_solution.fizz_buzz(111) == "deluxe"
+        assert fizz_buzz_solution.fizz_buzz(546) == "fizz buzz"
+        assert fizz_buzz_solution.fizz_buzz(22) == "deluxe"
+        assert fizz_buzz_solution.fizz_buzz(111) == "fizz deluxe"
         assert fizz_buzz_solution.fizz_buzz(99) == "fizz deluxe"
         assert fizz_buzz_solution.fizz_buzz(33) == "fizz deluxe"
         assert fizz_buzz_solution.fizz_buzz(222) == "fizz deluxe"
-        assert fizz_buzz_solution.fizz_buzz(222) == "fizz deluxe"
+        assert fizz_buzz_solution.fizz_buzz(777) == "fizz deluxe"
     
     
-
