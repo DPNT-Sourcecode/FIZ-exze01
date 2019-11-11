@@ -4,9 +4,11 @@ def compute(x, y):
     raise NotImplementedError()
 
 
-def _check_type(obj, type):
-    """
-    check if an ob
-    """
+def _check_type(obj, type, range):
+    if isinstance(obj,type) and (range[0] <= obj <= 100) :
+        return True
+    else:
+        raise ValueError("The {obj} is not of type {type} or is not between ")
+
 
 
